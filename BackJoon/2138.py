@@ -20,7 +20,7 @@ def switch_check(light_diff):
     # 이 과정을 N번 스위치 까지 반복했을 때의 카운터 결과값이 case0의 해이다.
     # 만약 마지막 버튼을 눌렀을 때, 마지막 항이 False를 만들 수 없다면 case0는 불가능 이다.
     cnt = 0
-    # i+1번 버튼을 눌렀을 때의 반복문
+    # i+1번 버튼을 눌렀을 때의 반복문+
     for i in range(N-2):
         if light_diff[i]:
             light_diff[i] = not light_diff[i]
@@ -84,8 +84,8 @@ goal_light.extend(line2)
 light_diff = []
 for i in range(N):
     if origin_light[i] == goal_light[i]:
-        light_diff.append(False)
+        light_diff.append(origin_light[i] == goal_light[i])
     else:
         light_diff.append(True)
-
+    # light_diff.append(origin_light[i] != goal_light[i])
 print(switch_check(light_diff))
