@@ -4,7 +4,7 @@ sys.stdin = open('input.txt')
 T = int(input())
 
 
-for x in range(T):
+for x in range(1, T+1):
     Number_count = [0]*10
     cards = input()
     for i in cards:
@@ -28,4 +28,4 @@ for x in range(T):
     else:
         babygin = 0
 
-    print(f'#{x+1} {babygin}')
+    print(f'#{x} {babygin}')
