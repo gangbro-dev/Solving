@@ -1,4 +1,7 @@
 def dfs(this_matrix, this_path_list, start, last_return):
+    max_path = last_return
+    if max_path > 25:
+        return max_path
     dx = [1, 0, -1, 0]
     dy = [0, 1, 0, -1]
     x, y = start
@@ -10,7 +13,9 @@ def dfs(this_matrix, this_path_list, start, last_return):
         if 0 <= x + dx[i] < C and 0 <= y + dy[i] < R:
             # 지나온 알파벳이 있는 칸인가
             if this_matrix[y + dy[i]][x + dx[i]] not in path_list_now:
-                max_path = max(max_path, dfs(this_matrix, path_list_now, (x + dx[i], y + dy[i]), max_path))
+                max_path = max(len(path_list_now), dfs(this_matrix, path_list_now, (x + dx[i], y + dy[i]), max_path))
+                if max_path > 25:
+                    return max_path
 
     return max_path
 

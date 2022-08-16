@@ -1,5 +1,3 @@
-
-
 N, L, R = map(int, input().split())
 
 dx = [1, 0, -1, 0]
@@ -15,44 +13,55 @@ def union(N_list, L, R):
     union_list = []
     union_count = 0
     visit = [[False for _ in range(N)] for _ in range(N)]
+    visit[0][0] = True
     while True:
-        row, column = que.popleft()
-        visit[column][row] = True
-        for i in range(4):
-            # 비교할 칸이 인덱스 이내의 칸인지 확인
-            if 0 <= row + dx[i] < N and 0 <= column + dy[i] < N:
-                # 현재 인덱스와 한칸 오른쪽의 인덱스를 비교해서 연합인지 확인
-                if L <= abs(N_list[column][row]-N_list[column+dy[i]][row+dx[i]]) <= R:
-                    # 연합이고, 방문한 적이 없다면, 대기열에 추가
-                    if not visit[column+dy[i]][row+dx[i]]:
-                        que.append((column+dy[i], row+dx[i]))
-                    # 연합국이라면, 현재 양 국이 속해있는 연합이 존재하는지 확인
-                    # 존재한다면, 그 쪽 연합으로 나머지 국가 합류
-                    for j in range(union_count):
-                        if (column, row) in union_list[j]:
-                            union_list[j].add((column+dy[i], row+dx[i]))
-                            break
-                        elif (column+dy[i], row+dx[i]) in union_list[j]:
-                            union_list[j].add((column, row))
-                            break
-                    # 만약 현재 존재하는 연합에 존재하는 원소가 아닌 경우, 새연합 셋을 생성 후 둘 다 대입
-                    else:
-                        union_list.append(set())
-                        union_list[union_count].add((column, row))
-                        union_list[union_count].add((column+dy[i], row+dx[i]))
-                        union_count += 1
-        for i in range(N):
-            for j in range(N):
-                if visit[i][j]:
-                    pass
-                else:
-                    que.append((i, j))
+        for column in range(N):
+            for row in range(N):
+                if not visit[column][row]:
+                    que.append((column, row))
+                    visit[column][row] = True
                     break
             if que:
                 break
         else:
             break
-
+        while que:
+            column, row = que.popleft()
+            for i in range(4):
+                # 비교할 칸이 인덱스 이내의 칸인지 확인
+                if 0 <= row + dx[i] < N and 0 <= column + dy[i] < N:
+                    # 현재 인덱스와 한칸 오른쪽의 인덱스를 비교해서 연합인지 확인
+                    if L <= abs(N_list[column][row] - N_list[column + dy[i]][row + dx[i]]) <= R:
+                        # 연합이고, 방문한 적이 없다면, 대기열에 추가
+                        if not visit[column + dy[i]][row + dx[i]]:
+                            que.append((column + dy[i], row + dx[i]))
+                            visit[column + dy[i]][row + dx[i]] = True
+                        # 연합국이라면, 현재 양 국이 속해있는 연합이 존재하는지 확인
+                        # 존재한다면, 그 쪽 연합으로 나머지 국가 합류
+                        for j in range(union_count):
+                            if (column, row) in union_list[j]:
+                                union_list[j].add((column + dy[i], row + dx[i]))
+                                break
+                            elif (column + dy[i], row + dx[i]) in union_list[j]:
+                                union_list[j].add((column, row))
+                                break
+                        # 만약 현재 존재하는 연합에 존재하는 원소가 아닌 경우, 새연합 셋을 생성 후 둘 다 대입
+                        else:
+                            union_list.append(set())
+                            union_list[union_count].add((column, row))
+                            union_list[union_count].add((column + dy[i], row + dx[i]))
+                            union_count += 1
+        if not que:
+            for column in range(N):
+                for row in range(N):
+                    if not visit[column][row]:
+                        que.append((column, row))
+                        visit[column][row] = True
+                        break
+                if que:
+                    break
+            else:
+                break
     # 연합이 존재하지 않는다면,
     if not union_list:
         return False
