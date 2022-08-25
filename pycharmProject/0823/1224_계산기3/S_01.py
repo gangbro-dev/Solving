@@ -56,20 +56,13 @@ def split_mean(string):
 
 
 for Tc in range(1, 11):
+    N = int(input())
     equation = input()
-    equ = split_mean(equation)
+    equ = postfix_mod(split_mean(equation))
     stack = []
 
     print(f'#{Tc}', end=' ')
     for char in equ:
-        if char == '.':
-            ans = stack.pop()
-            if stack:
-                print('error')
-                break
-            else:
-                print(ans)
-            break
         if char.isdecimal():
             stack.append(int(char))
         else:
@@ -87,3 +80,5 @@ for Tc in range(1, 11):
                 stack.append(a * b)
             elif char == '/':
                 stack.append(a // b)
+
+    print(*stack)
