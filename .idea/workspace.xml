@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea48a4c-d869-4393-b0b4-0049e544f1b7" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/1232_사칙연산/S_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/5174_subtree/S_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/5176_이진탐색/S_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/5176_이진탐색/sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/5177_이진힙/S_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0915/5178_노드의 합/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0916/1486. 장훈이의 높은 선반/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0916/4012_요리사/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0916/5688_세제곱근을 찾아라/S_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution2.py" beforeDir="false" afterPath="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거/S_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거/S_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +45,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pycharmProject/0915/1232_사칙연산" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\4012_요리사" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\5688_세제곱근을 찾아라" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\1486. 장훈이의 높은 선반" />
       <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\1232_사칙연산" />
       <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\5177_이진힙" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\5176_이진탐색" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\5178_노드의 합" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\5174_subtree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\Desktop\my_codes\Solving\pycharmProject\0822\1223_계산기2" />
       <recent name="C:\Users\SSAFY\Desktop\my_codes\Solving\pycharmProject\0822" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.solution">
+  <component name="RunManager" selected="Python.solution2 (1)">
     <configuration name="S_01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0915/5177_이진힙" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0915/5177_이진힙/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0915/1232_사칙연산" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0915/1232_사칙연산/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0915/5176_이진탐색" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0916/5688_세제곱근을 찾아라" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0915/5176_이진탐색/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0916/5688_세제곱근을 찾아라/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0915/5178_노드의 합" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0916/1486. 장훈이의 높은 선반" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0915/5178_노드의 합/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0916/1486. 장훈이의 높은 선반/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="solution2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solution" />
-        <item itemvalue="Python.S_01 (2)" />
+        <item itemvalue="Python.solution2 (1)" />
         <item itemvalue="Python.S_01 (1)" />
+        <item itemvalue="Python.S_01 (2)" />
         <item itemvalue="Python.S_01 (3)" />
         <item itemvalue="Python.S_01" />
       </list>
@@ -298,6 +297,21 @@
           <url>file://$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/양궁대회/solution.py</url>
           <line>29</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pycharmProject/0916/5688_세제곱근을 찾아라/S_01.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거/S_01.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution2.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
