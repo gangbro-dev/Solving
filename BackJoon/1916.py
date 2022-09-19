@@ -11,18 +11,14 @@ for line in bus:
     # 노선 정보를 저장한다. 만약 자기자신으로 오는 노선이 있다면, 무시한다.
     if line[0] == line[1]:
         continue
-    # 아직 저장되지 않은 노선이라면 추가한다.
-    if line[1] not in adj_graph[line[0]].keys():
-        adj_graph[line[0]][line[1]] = line[2]
-    # 겹치는 노선이라면, 비용이 작을 때, 저장한다.
-    elif adj_graph[line[0]][line[1]] > line[2]:
+    # 아직 저장되지 않은 노선이라면 추가한다. 겹치는 노선이라면, 비용이 작을 때, 저장한다.
+    if line[1] not in adj_graph[line[0]].keys() or adj_graph[line[0]][line[1]] > line[2]:
         adj_graph[line[0]][line[1]] = line[2]
 
 cost_table = [100001 * N] * (N+1)               # 각 노드로 가는 최소비용
 cost_table[start] = 0                           # 시작점에서 시작점으로 가는 비용은 0
 q = list()
 heapq.heappush(q, (0, start))
-
 
 while q:
     dist, now = heapq.heappop(q)

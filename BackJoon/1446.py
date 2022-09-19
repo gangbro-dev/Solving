@@ -33,7 +33,7 @@
 # 2. 다익스트라 도전!
 N, D = map(int, input().split())
 # 기본적인 거리로 테이블 초기화
-cost_table = [x for x in range(D + 1)]
+cost_table = [x for x in range(D + 1)]          # 지름길 없이 도로 타면 기본 테이블
 # 지름길 입력
 short_cut_list = list()
 for _ in range(N):
