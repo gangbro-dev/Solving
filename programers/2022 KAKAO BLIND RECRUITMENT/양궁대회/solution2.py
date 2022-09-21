@@ -1,14 +1,16 @@
 from itertools import combinations_with_replacement as comb
+
+
 def solution(n, info):
     answer = [-1]
     max_score = 0
     answer_set = list()
     # 0~10의 정수를 중복 조합으로 n개 뽑는다
-    for point_set in comb(list(range(11)), n):
+    for point_set in comb(list(range(11)), n):          # [10, 10, 10]
         # 뽑은 조합을 통해서 lion이 맞춘 화살 리스트를 생성한다.
         lion = [0] * 11
         for point in point_set:
-            lion[10-point] += 1
+            lion[10-point] += 1                         # [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         # lion 화살 리스트와 info를 비교해서 점수 차를 계산한다.
         score = 0
         for i in range(11):
