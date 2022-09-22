@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea48a4c-d869-4393-b0b4-0049e544f1b7" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0920/5185_이진수/S_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycharmProject/0920/5186_이진수2/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programers/2021 KAKAO BLIND RECRUITMENT/메뉴 리뉴얼/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programers/2021 KAKAO BLIND RECRUITMENT/신규 아이디 추천/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0921/5188_최소합/S_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0922/5189_전자카트/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0922/5202_화물 도크/S_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycharmProject/0922/5203_베이비진 게임/S_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycharmProject/0921/5188_최소합/S_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycharmProject/0921/5188_최소합/S_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +45,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pycharmProject/0922/5203_베이비진 게임" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\4012_요리사" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\5688_세제곱근을 찾아라" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0916\1486. 장훈이의 높은 선반" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\1232_사칙연산" />
-      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0915\5177_이진힙" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0922\5203_베이비진 게임" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0922\5202_화물 도크" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0922\5201_컨테이너 운반" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0922\5189_전자카트" />
+      <recent name="C:\Users\SSAFY\Desktop\ssafy_code\Solving\pycharmProject\0921\5188_최소합" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\Desktop\my_codes\Solving\pycharmProject\0822\1223_계산기2" />
       <recent name="C:\Users\SSAFY\Desktop\my_codes\Solving\pycharmProject\0822" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.S_01 (4)">
+  <component name="RunManager" selected="Python.solution">
     <configuration name="S_01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0922/5201_컨테이너 운반" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0913/1953_탈주범검거/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0922/5201_컨테이너 운반/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,32 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0922/5189_전자카트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0916/4012_요리사/S_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="S_01 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Solving" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0920/1242_암호코드 스캔" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0920/1242_암호코드 스캔/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0922/5189_전자카트/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0920/5185_이진수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0922/5202_화물 도크" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0920/5185_이진수/S_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0922/5202_화물 도크/S_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solution2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="S_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Solving" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +133,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycharmProject/0921/5188_최소합" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycharmProject/0921/5188_최소합/S_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Solving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programers/2021 KAKAO BLIND RECRUITMENT/신규 아이디 추천" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programers/2021 KAKAO BLIND RECRUITMENT/신규 아이디 추천/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.S_01 (4)" />
+        <item itemvalue="Python.solution" />
         <item itemvalue="Python.S_01" />
         <item itemvalue="Python.S_01 (1)" />
-        <item itemvalue="Python.solution2 (1)" />
         <item itemvalue="Python.S_01 (2)" />
+        <item itemvalue="Python.S_02" />
       </list>
     </recent_temporary>
   </component>
@@ -305,13 +310,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/programers/2022 KAKAO BLIND RECRUITMENT/파괴되지 않은 건물/solution2.py</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pycharmProject/0920/1242_암호코드 스캔/S_01.py</url>
           <line>43</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pycharmProject/0921/5188_최소합/S_01.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pycharmProject/0922/5201_컨테이너 운반/S_01.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/programers/2021 KAKAO BLIND RECRUITMENT/신규 아이디 추천/solution.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
