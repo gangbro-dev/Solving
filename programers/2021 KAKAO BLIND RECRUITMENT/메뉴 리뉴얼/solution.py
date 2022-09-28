@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 def solution(orders, course):
     ASCII_factor = ord('A')
     alpha_count = [0] * 27

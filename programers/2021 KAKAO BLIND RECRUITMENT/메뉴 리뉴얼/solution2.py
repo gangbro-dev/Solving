@@ -1,5 +1,6 @@
 from itertools import combinations
 
+
 def solution(orders, course):
     sorted_order = []
     for order in orders:
@@ -31,8 +32,3 @@ def solution(orders, course):
             answer.append(''.join(best_course))
 
     return sorted(answer)
-
-orders = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
-course = [2,3,4]
-
-print(solution(orders, course))
