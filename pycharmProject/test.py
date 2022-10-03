@@ -1,6 +1,5 @@
-num = input()
+from itertools import combinations
 
-temp = format(int(num, 2), '07b')
-
-print(temp)
-print(format(int(num, 2) ^ 0b1111111, '07b'))
+A = [1, 1, 2, 3, 3, 4, 4, 4]
+for i in combinations(A, 4):
+    print(i)
