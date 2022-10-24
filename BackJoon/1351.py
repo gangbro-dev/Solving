@@ -1,18 +1,13 @@
+def sol(N, P, Q):
+    global DP
+    if N not in DP.keys():
+        DP[N] = sol(N//P, P, Q) + sol(N//Q, P, Q)
+    return DP[N]
+
 N, P, Q = map(int, input().split())
 
-A = [0] * 1000001
-A[0] = 1
-for i in range(1, 1000001):
-    A[i] = A[i//P] + A[i//Q]
-
+DP = dict([(0, 1), (1, 2)])
 lst = [N]
-ans = 0
-while lst:
-    i = lst.pop()
-    if i < len(A):
-        ans += A[i]
-        continue
-    lst.append(i//P)
-    lst.append(i//Q)
+ans = sol(N, P, Q)
 
 print(ans)
