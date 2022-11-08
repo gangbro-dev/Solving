@@ -1,5 +1,12 @@
-def setting_frog(Frog, Favleaf, Adjlog, frognum):
-    if frognum
+def frogSetting(N, K, frog, favleaf, state, idx=1):
+    for favleaf in favleaf[idx]:
+        next_state = state[:]
+        next_state[favleaf] = idx
+        # 주변 개구리 보자
+        for otherfrog in adjLog[favleaf]:
+            if state[otherfrog]:
+                for i in range(4):
+                    if frog[otherfrog][i] ==
 
 N, M = map(int, input())
 frog = list((None,))
@@ -21,3 +28,5 @@ for i in range(M):
     adjLog[A].append((B, T-1))
     adjLog[B].append((A, T-1))
 
+state = [None] * N + 1
+frogSetting(N, K, frog, favleaf, state)
