@@ -5,7 +5,6 @@ def frogSetting(N, frog, favleaf, frogNum=1):
     global state
     # 모든 개구리 배치 시 재귀 종료
     if frogNum > N:
-        state[0] = True
         return True
     # 일단 한 마리 좋아하는 이파리 위에 올려봐
     for leaf in favleaf[frogNum]:
@@ -50,8 +49,8 @@ for i in range(M):
     adjLog[B].append((A, T-1))
 
 state = [None] * (N + 1)
-frogSetting(N, frog, favleaf)
-if state[0]:
+
+if frogSetting(N, frog, favleaf):
     print('YES')
     print(*state[1:])
 else:

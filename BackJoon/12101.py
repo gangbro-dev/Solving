@@ -1,6 +1,5 @@
 ans = list()
 
-
 def make_eq(left, length, eq=''):
     global ans
     if len(ans) == length:

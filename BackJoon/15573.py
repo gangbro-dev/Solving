@@ -1,26 +1,41 @@
-# 보자 일단 자기 강도보다 큰 값을 가져야함
-# 일단 패딩 넣은 놈은 0 해줌
-# 만약에 내 주변에 내 강도보다 쌘 돌만 있다면
-# import sys
-# input = sys.stdin.readline().rstrip
-
-AIR_FACTOR = 1000001
+import heapq
+DELTA = ((-1, 0), (0, -1), (1, 0), (0, 1),)
 N, M, K = map(int, input().split())
 
-ores = [[0] * (M * 2)]
-# 1. 좌 우 상 방향에 패딩 씌우기
+ores = list()
 for _ in range(N):
-    ores.append([0] + list(map(int, input().split())) + [0])
+    ores.append(tuple(map(int, input().split())))
 
-# 그룹화?? 해보자
-step_dp = [[None] * (M + 2) for _ in range(N + 1)]
+visited = [[False] * M for _ in range(N)]
+q = list()
 
-for x in range(N+1):
-    for y in range(M+2):
-        if not ores[x][y]:
-            step_dp[x][y] = 0
-            continue
-#         for dx, dy in [(1,0), (0,1), (-1,0), (0,-1)]:
-#             if
+# 첫 테두리 힙에 넣기
+if M == 1:
+    for i in range(N):
+        heapq.heappush(q, (ores[i][0], i, 0))
+        visited[i][0] = True
+else:
+    for j in range(M):
+        heapq.heappush(q, (ores[0][j], 0, j))
+        visited[0][j] = True
+    for i in range(1, N):
+        for j in (0, M-1):
+            heapq.heappush(q, (ores[i][j], i, j))
+            visited[i][j] = True
+# 시작할 수 있는 돌 강도
+S = 0
+cnt = 0
+# 돌 하나씩 쪼개보자 -> 내가 원하는 만큼 쪼갯으면 끗
+while q and cnt < K:
+    ore = heapq.heappop(q)
+    if ore[0] > S:
+        S = ore[0]
+    cnt += 1
+    x, y = ore[1], ore[2]
+    for dx, dy in DELTA:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx < N and 0 <= ny < M and not visited[nx][ny]:
+            heapq.heappush(q, (ores[nx][ny], nx, ny))
+            visited[nx][ny] = True
 
-print(ores)
+print(S)

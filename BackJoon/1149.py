@@ -1,13 +1,20 @@
+import sys
+
+input = sys.stdin.readline
+
 N = int(input())
 
-cost = 0
-RGB = []
-result = 1000*1000
-for RGB_idx in range(N):
-    temp_idx = [RGB_idx]
-    RGB.append(temp_idx + list(map(int, input().split())))
+cost = list()
+for _ in range(N):
+    cost.append(list(map(int, input().split())))
+result = list()
+result.append(cost[0])
 
+for i in range(1, N):
+    result.append([0] * 3)
+    for j in range(3):
+        A = (j + 1) % 3
+        B = (j + 2) % 3
+        result[i][j] = min(result[i-1][A], result[i-1][B]) + cost[i][j]
 
-
-print(result)
-
+print(min(result[-1]))

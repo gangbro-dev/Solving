@@ -1,4 +1,4 @@
-ans = [0, 0, 0]
+ans = [0, 0, 0] # 답을 넣을 리스트 -1 0 1
 
 
 def papercheck(paper, papers, papere, N):
@@ -25,7 +25,7 @@ def papercheck(paper, papers, papere, N):
 N = int(input())
 
 paper = list()
-
+ㅁㅇ
 for i in range(N):
     paper.append(list(map(int, input().split())))
 
